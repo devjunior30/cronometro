@@ -49,5 +49,5 @@ function stop() {
     min = 0
     hrs =0 
 
-    document.querySelector('.watch').innerHTML = "00:00:00"
+    document.querySelector('.watch').innerHTML = "00:00:00:00"
 }

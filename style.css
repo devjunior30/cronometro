@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+div {
+    margin-top: 176px;
+}
+
+.h1 {
+    color: red;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 39px;
+    font-family: 'Black Ops One', cursive;
+    font-style: oblique;
+}
+
+.watch {
+    font-size: 50px;
+    background-color: red;
+    width: 7.5em;
+    text-align: center;
+    height: 2em;
+    padding-top: 20px;
+    border-radius: 50px;
+    color: lime;
+}
+
+button {
+    width: 6em;
+    height: 2.3em;
+    margin-top: 30px;
+    font-size: 19px;
+    margin-right: 16px;
+    border: none;
+    color: #ffffff;
+    border-radius: 11px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .7;
+    transition: 0.3s;
+}
+
+button:active {
+    opacity: .5;
+    color: #808080;
+    transition: 0.3s;
+}
+
+.start {
+    background-color: #00FF00;
+}
+
+.pause {
+    background-color: #c4b704;
+}
+
+.stop {
+    background-color: red;
+}
+
+@media (max-width: 480px) {
+    .h1 {
+        font-size: 40px;
+    }
+
+    .watch {
+    font-size: 37px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+    }
+
+    button {
+        font-size: 15px;
+        color: black;
+        font-weight: 900;
+    }
+}
